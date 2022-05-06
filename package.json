@@ -1,0 +1,36 @@
+{
+  "name": "miranda_front",
+  "version": "1.0.0",
+  "description": "Hotel miranda with Sass , html ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "sass":"sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelVillagomezDev/miranda_front.git"
+  },
+  "author": "rafaelvillagomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelVillagomezDev/miranda_front/issues"
+  },
+  "homepage": "https://github.com/RafaelVillagomezDev/miranda_front#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "liveSassCompile.settings.formats" : [ 
+    
+    
+    
+    { 
+        "formato" : "expanded" , 
+        "extensionName" : ".min.css" , 
+        "savePath" : "~/../css" 
+    } 
+  
+   
+]
+
+}
