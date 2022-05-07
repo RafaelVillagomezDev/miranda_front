@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 nav {
   background-color: #FFFFFF;
   height: 70px;
@@ -105,11 +107,42 @@ nav #search_icon {
   z-index: -1;
 }
 .card_more p {
+  font-family: "Roboto, sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 14px;
   margin: auto;
   padding-top: 22px;
   text-align: center;
   width: 199px;
   height: 77px;
+}
+
+.slider {
+  height: 244px;
+  position: relative;
+  bottom: 40px;
+  background-color: #E5E5E5;
+  z-index: -1;
+}
+
+.card_info_price {
+  height: 215px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.card_info_price h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #222222;
+}
+.card_info_price p {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 * {
@@ -209,6 +242,32 @@ body {
   line-height: 15.23px;
   background-color: #BEAD8E;
   color: #FFFFFF;
+}
+
+.subtitles_info {
+  font-family: "Archivo", sans-serif;
+  color: #777777;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+}
+
+.title_info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 56px;
+  font-family: "Old Standard TT", serif;
+  letter-spacing: -1, 2px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+#slider_box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=home.css.map */

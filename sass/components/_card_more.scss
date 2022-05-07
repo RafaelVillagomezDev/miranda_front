@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 //VARIABLES GLOBALES
 $black-color: #222222;
 $white-color: #E5E5E5;
@@ -52,6 +53,11 @@ $text-color-white: #FFFFFF;
     }
 
     p {
+        font-family: 'Roboto, sans-serif';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 14px;
         margin: auto;
         padding-top: 22px;
         text-align: center;

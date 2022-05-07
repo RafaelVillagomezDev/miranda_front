@@ -1,0 +1,35 @@
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav: #FFFFFF;
+$gold-color: #BEAD8E;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+
+.card_info_price {
+    height: 215px;
+    text-align: center;
+    background-color: $text-color-white;
+
+
+    h1 {
+        font-family: 'Old Standard TT', serif;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 400;
+        color: $black-color;
+
+    }
+
+    p {
+        font-family: 'Roboto', serif;
+        font-weight: 400;
+        line-height: 1.5;
+
+    }
+}
