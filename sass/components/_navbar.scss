@@ -1,0 +1,43 @@
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav:#FFFFFF;
+$gold-color: #BEAD8E;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+
+
+
+nav{
+    background-color: $white-color-nav;
+    height: 70px;
+
+    #btn_menu{
+        position:absolute;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    #logo{
+        margin-left: 34px;
+    }
+
+    #icon_person{
+        position:absolute;
+        right: 0;
+        top: 21px;
+        margin-right: 60px;
+        background-color: white;
+    }
+    #search_icon{
+        position:absolute;
+        right: 0;
+        top: 18px;
+        margin-right: 20px;
+        background-color: $white-color-nav;
+    }
+}

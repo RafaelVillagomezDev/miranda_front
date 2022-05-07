@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav:#FFFFFF;
+$gold-color: #BEAD8E;
+$black-card:#333333;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+#arrival_card{
+    height: 325px;
+    background-color: $black-color;
+    padding-left: 20px;
+
+    form{
+        height: 282px;
+        width: 335px;
+        
+        padding-top: 36px;
+      
+    }
+
+    div{
+        width: 335px;
+        height: 75px;
+        padding-bottom: 18px;
+       
+    }
+
+    label{
+        font-family: 'Roboto', sans-serif;
+        color: $text-color-white;
+        font-size: 16px;
+        line-height: 18.75px;
+        font-weight: bold;
+    }
+
+    input[type="date"]{
+        
+        color: $gold-color;
+        padding: 12px;
+        width: 260px;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .eyeliner{
+        height: 2px;
+        width: 335px;
+        
+        background: $gold-color;
+    }
+    
+    button{
+        width: 216px;
+        height: 60px;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        line-height: 15.23px;
+        background-color:$gold-color ;
+        color:$text-color-white;
+    }
+
+ 
+}
+

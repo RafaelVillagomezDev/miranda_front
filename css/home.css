@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+nav {
+  background-color: #FFFFFF;
+  height: 70px;
+}
+nav #btn_menu {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+nav #logo {
+  margin-left: 34px;
+}
+nav #icon_person {
+  position: absolute;
+  right: 0;
+  top: 21px;
+  margin-right: 60px;
+  background-color: white;
+}
+nav #search_icon {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+}
+
+#arrival_card {
+  height: 325px;
+  background-color: #222222;
+  padding-left: 20px;
+}
+#arrival_card form {
+  height: 282px;
+  width: 335px;
+  padding-top: 36px;
+}
+#arrival_card div {
+  width: 335px;
+  height: 75px;
+  padding-bottom: 18px;
+}
+#arrival_card label {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: bold;
+}
+#arrival_card input[type=date] {
+  color: #BEAD8E;
+  padding: 12px;
+  width: 260px;
+  outline: none;
+  background-color: transparent;
+}
+#arrival_card .eyeliner {
+  height: 2px;
+  width: 335px;
+  background: #BEAD8E;
+}
+#arrival_card button {
+  width: 216px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 15.23px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+}
+
+.card_more {
+  height: 600px;
+  margin: 0px 52px;
+  margin-bottom: 52px;
+}
+.card_more .team_img {
+  height: 300px;
+  background-color: #E4E4E4;
+}
+.card_more .div_team {
+  box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+}
+.card_more #team {
+  position: relative;
+  top: 33px;
+  left: 40%;
+  z-index: 20;
+}
+.card_more #team_shadow {
+  position: relative;
+  top: 72px;
+  left: 66px;
+  z-index: 1;
+}
+.card_more h1 {
+  padding-top: 42px;
+  padding-left: 2px;
+  position: static;
+  font-size: 30px;
+  text-align: center;
+  z-index: -1;
+}
+.card_more p {
+  margin: auto;
+  padding-top: 22px;
+  text-align: center;
+  width: 199px;
+  height: 77px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+#main_card {
+  background-color: #333333;
+  height: 531px;
+  padding-left: 20px;
+}
+#main_card p {
+  font-size: 15px;
+  padding-top: 52px;
+  color: #FFFFFF;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  font-weight: bold;
+}
+#main_card h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 56px;
+  padding-top: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: -1.2px;
+}
+#main_card #btn_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 25px;
+  gap: 22px;
+}
+#main_card button {
+  width: 216px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 15.23px;
+  color: #FFFFFF;
+}
+#main_card #btn_tour {
+  background-color: #BEAD8E;
+}
+#main_card #btn_more {
+  background-color: #333333;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+}
+
+#discover_us {
+  height: 510px;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+}
+#discover_us #discover_subtitle {
+  padding-top: 38px;
+  color: #777777;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+}
+#discover_us h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 56px;
+  line-height: 60px;
+  padding-top: 38px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #111111;
+}
+#discover_us #text_discover {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #777777;
+  padding-top: 22px;
+  line-height: 24px;
+  width: 335px;
+  height: 126px;
+  padding-bottom: 15px;
+  font-family: "Archivo", sans-serif;
+}
+#discover_us button {
+  width: 216px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 15.23px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=home.css.map */
