@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav: #FFFFFF;
+$gold-color: #BEAD8E;
+$black-card: #333333;
+$white-card: #F9F9F9;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+.intro_video {
+    background-color: $black-color;
+    height: 856px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+
+    #subtitle {
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 60px;
+        padding-bottom: 22px;
+        color: $gold-color;
+        font-family: 'Archivo', serif;
+        line-height: 15.23px;
+
+    }
+
+    h1 {
+        font-weight: 400;
+        font-family: 'Old Standard TT', serif;
+        font-size: 56px;
+        color: $white-color-nav;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+        padding-bottom: 12px;
+    }
+
+    p {
+        font-family: 'Archivo', serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #c2c2c2;
+        line-height: 24px;
+
+    }
+
+    #video {
+        margin-top: 35px;
+        background-color: #E6E6E6;
+        height: 270px;
+    }
+
+    button {
+        margin-top: 35px;
+        width: 216px;
+        height: 60px;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        line-height: 15.23px;
+        background-color: $gold-color ;
+        color: $text-color-white;
+    }
+}

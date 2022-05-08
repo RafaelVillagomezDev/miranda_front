@@ -8,16 +8,22 @@ $text-color-grey: #777777;
 $text-color-black-bold: #111111;
 $text-color-black: #222222;
 $text-color-white: #FFFFFF;
+$text-color-grey-card: #C2C2C2;
+
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 
+// $white-color-nav
 .card_info_price {
     height: 215px;
     text-align: center;
-    background-color: $text-color-white;
-
+    background-color: $white-color-nav;
+    margin: 0px 25px;
+    position: relative;
+    bottom: 62px;
 
     h1 {
+        padding-top: 32px;
         font-family: 'Old Standard TT', serif;
         font-size: 28px;
         line-height: 36px;
@@ -27,9 +33,34 @@ $text-color-white: #FFFFFF;
     }
 
     p {
-        font-family: 'Roboto', serif;
+        padding: 18px 20px 0px 20px;
+        font-family: 'Archivo', serif;
         font-weight: 400;
-        line-height: 1.5;
+        line-height: 24px;
+        font-size: 14px;
+        color: $text-color-grey-card;
+        text-align: center;
+    }
 
+    .price_card {
+        position: relative;
+        bottom: 18px;
+        font-weight: bold;
+        font-size: 28px;
+        color: $gold-color;
+    }
+
+
+
+    .price_card sub {
+        position: relative;
+        bottom: 8px;
+        font-size: 12px;
+        color: $gold-color;
+    }
+
+    .price_card a {
+        font-size: 28px;
+        padding-right: 2px;
     }
 }

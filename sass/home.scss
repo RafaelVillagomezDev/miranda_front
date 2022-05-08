@@ -3,6 +3,7 @@
 @use 'components/card_more';
 @use 'components/slider_image';
 @use 'components/card_info_price';
+@use 'components/intro_video';
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 //VARIABLES GLOBALES
@@ -88,6 +89,7 @@ body {
 
 }
 
+//CARD DISCOVER US
 #discover_us {
     height: 510px;
     background-color: $white-color-nav;

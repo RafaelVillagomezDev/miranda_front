@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 nav {
   background-color: #FFFFFF;
   height: 70px;
@@ -131,8 +132,12 @@ nav #search_icon {
   height: 215px;
   text-align: center;
   background-color: #FFFFFF;
+  margin: 0px 25px;
+  position: relative;
+  bottom: 62px;
 }
 .card_info_price h1 {
+  padding-top: 32px;
   font-family: "Old Standard TT", serif;
   font-size: 28px;
   line-height: 36px;
@@ -140,9 +145,81 @@ nav #search_icon {
   color: #222222;
 }
 .card_info_price p {
-  font-family: "Roboto", serif;
+  padding: 18px 20px 0px 20px;
+  font-family: "Archivo", serif;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 24px;
+  font-size: 14px;
+  color: #C2C2C2;
+  text-align: center;
+}
+.card_info_price .price_card {
+  position: relative;
+  bottom: 18px;
+  font-weight: bold;
+  font-size: 28px;
+  color: #BEAD8E;
+}
+.card_info_price .price_card sub {
+  position: relative;
+  bottom: 8px;
+  font-size: 12px;
+  color: #BEAD8E;
+}
+.card_info_price .price_card a {
+  font-size: 28px;
+  padding-right: 2px;
+}
+
+.intro_video {
+  background-color: #222222;
+  height: 856px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 35px;
+}
+.intro_video #subtitle {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 22px;
+  color: #BEAD8E;
+  font-family: "Archivo", serif;
+  line-height: 15.23px;
+}
+.intro_video h1 {
+  font-weight: 400;
+  font-family: "Old Standard TT", serif;
+  font-size: 56px;
+  color: #FFFFFF;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  padding-bottom: 12px;
+}
+.intro_video p {
+  font-family: "Archivo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #c2c2c2;
+  line-height: 24px;
+}
+.intro_video #video {
+  margin-top: 35px;
+  background-color: #E6E6E6;
+  height: 270px;
+}
+.intro_video button {
+  margin-top: 35px;
+  width: 216px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 15.23px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
 }
 
 * {
