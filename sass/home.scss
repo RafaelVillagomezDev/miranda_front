@@ -4,7 +4,7 @@
 @use 'components/slider_image';
 @use 'components/card_info_price';
 @use 'components/intro_video';
-
+@use 'components/footer';
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 //VARIABLES GLOBALES
 $black-color: #222222;
@@ -317,4 +317,18 @@ body {
     margin: 20px;
     height: 335px;
     background-color: $grey-color-slider;
+}
+
+.card_icons {
+    height: 1030px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+
+    .card_icon {
+        padding: 35px 0px;
+        height: 186px;
+        background-color: #222222;
+    }
 }

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 nav {
   background-color: #FFFFFF;
   height: 70px;
@@ -220,6 +221,84 @@ nav #search_icon {
   line-height: 15.23px;
   background-color: #BEAD8E;
   color: #FFFFFF;
+}
+
+.footer {
+  margin-top: 30px;
+  height: 1160px;
+  padding-left: 20px;
+  background-color: rebeccapurple;
+}
+.footer .description {
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 16px;
+  font-family: "Archivo", serif;
+  padding: 0px 20px;
+}
+.footer .description ul {
+  padding-top: 35px;
+  padding-left: 1px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.footer .description li {
+  text-decoration: none;
+  padding: 6px;
+}
+.footer .description #twitter {
+  background-color: #BEAD8E;
+}
+.footer .description .grey {
+  background-color: #F8F8F8;
+}
+.footer .services {
+  padding-top: 20px;
+}
+.footer .services p {
+  font-family: "Old Standart TT";
+  font-weight: 400;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.services_list {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.services_list ul {
+  list-style: none;
+  width: 158px;
+}
+.services_list a {
+  font-size: 16px;
+  font-family: "Roboto", serif;
+  color: #777777;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.contact_us {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.contact_us #title {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.item_contact {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.item_contact .number {
+  padding-left: 15px;
 }
 
 * {
@@ -464,6 +543,19 @@ body {
   margin: 20px;
   height: 335px;
   background-color: #EDEDED;
+}
+
+.card_icons {
+  height: 1030px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222222;
+}
+.card_icons .card_icon {
+  padding: 35px 0px;
+  height: 186px;
+  background-color: #222222;
 }
 
 /*# sourceMappingURL=home.css.map */
