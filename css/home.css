@@ -347,4 +347,91 @@ body {
   margin-right: auto;
 }
 
+.facilities {
+  text-align: center;
+  height: 501px;
+}
+.facilities #subtitle {
+  font-family: "Archivo", serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 15.23px;
+  color: #777777;
+  padding-bottom: 18px;
+}
+.facilities h1 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+.facilities .slider_core {
+  margin-top: 22px;
+  height: 370px;
+  background-color: red;
+}
+
+.menu {
+  height: 758px;
+  margin-top: 18px;
+  padding-left: 20px;
+}
+.menu #roscon {
+  position: absolute;
+  margin-top: 1px;
+  right: 0;
+}
+.menu .menu_div {
+  position: relative;
+  top: 120px;
+}
+.menu .menu_div #subtitle_menu {
+  font-family: "Archivo", serif;
+  font-size: 14px;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+  color: #777777;
+  font-weight: bold;
+}
+.menu .menu_div #title_menu {
+  font-family: "Old Standard TT", serif;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  font-weight: 400;
+  font-size: 56px;
+  padding-top: 30px;
+}
+
+.menu_food {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  height: 120px;
+  display: flex;
+  column-gap: 20px;
+}
+.menu_food .image_menu {
+  background-color: #DBDBDB;
+  width: 120px;
+}
+.menu_food .text_menu {
+  width: 185px;
+}
+.menu_food .text_menu h1 {
+  font-family: "Old Standard TT", serif;
+  font-family: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  padding-bottom: 10px;
+}
+.menu_food .text_menu p {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=home.css.map */

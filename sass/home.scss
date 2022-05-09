@@ -13,6 +13,7 @@ $white-color-nav: #FFFFFF;
 $gold-color: #BEAD8E;
 $black-card: #333333;
 $white-card: #F9F9F9;
+$grey-color-card: #DBDBDB;
 //Colores para textos //
 $text-color-grey: #777777;
 $text-color-black-bold: #111111;
@@ -164,4 +165,117 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+//Facilities
+
+.facilities {
+    text-align: center;
+    height: 501px;
+
+
+    #subtitle {
+        font-family: 'Archivo', serif;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        line-height: 15.23px;
+        color: $text-color-grey;
+        padding-bottom: 18px;
+    }
+
+    h1 {
+        font-family: 'Old Standard TT', serif;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+        color: #222222;
+
+    }
+
+    .slider_core {
+        margin-top: 22px;
+        height: 370px;
+        background-color: red;
+    }
+}
+
+//Roscon image 1
+.menu {
+    height: 758px;
+    margin-top: 18px;
+    padding-left: 20px;
+
+    #roscon {
+        position: absolute;
+        margin-top: 1px;
+        right: 0;
+    }
+
+    //Roscon image 2 
+    .menu_div {
+        position: relative;
+        top: 120px;
+
+        #subtitle_menu {
+            font-family: 'Archivo', serif;
+            font-size: 14px;
+            line-height: 15.23px;
+            letter-spacing: 2.8px;
+            color: $text-color-grey;
+            font-weight: bold;
+        }
+
+        #title_menu {
+            font-family: 'Old Standard TT', serif;
+            line-height: 60px;
+            letter-spacing: -1.2px;
+            font-weight: 400;
+            font-size: 56px;
+            padding-top: 30px;
+        }
+
+
+
+    }
+
+
+}
+
+
+
+//Menu food item 
+.menu_food {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    height: 120px;
+    display: flex;
+    column-gap: 20px;
+
+    .image_menu {
+        background-color: $grey-color-card ;
+        width: 120px;
+    }
+
+    .text_menu {
+        width: 185px;
+
+        h1 {
+            font-family: 'Old Standard TT', serif;
+            font-family: 400;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -0.72px;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-family: 'Roboto', serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
 }
