@@ -225,9 +225,8 @@ nav #search_icon {
 
 .footer {
   margin-top: 30px;
-  height: 1160px;
+  height: 1050px;
   padding-left: 20px;
-  background-color: rebeccapurple;
 }
 .footer .description {
   font-weight: 400;
@@ -299,6 +298,23 @@ nav #search_icon {
 }
 .item_contact .number {
   padding-left: 15px;
+}
+
+.badge_footer {
+  background-color: #F8F8F8;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.badge_footer p {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: -0.48px;
 }
 
 * {
