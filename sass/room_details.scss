@@ -34,3 +34,169 @@ body {
     margin: 20px;
     background-color: #EFEFEF;
 }
+
+
+.type_room_text {
+    padding: 20px;
+
+    p {
+        font-family: 'Archivo', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $text-color-grey;
+        font-style: normal;
+        letter-spacing: 2.8px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        font-family: 'Old Standard TT', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.44px;
+        color: $text-color-black;
+    }
+
+
+}
+
+#price {
+    padding-top: 20px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 25px;
+    text-transform: none;
+    font-style: normal;
+    color: $gold-color;
+    letter-spacing: 0px;
+
+    sub {
+        font-size: 12px;
+    }
+}
+
+#check {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+}
+
+/*Terminar calendar y imagen */
+.avalaibility_calendar {
+    height: 380px;
+}
+
+.text_check {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: $text-color-grey;
+    }
+}
+
+
+/**/
+.profile_founder {
+    height: 456px;
+    margin-top: 40px;
+
+}
+
+.img {
+    position: static;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.profile {
+    position: relative;
+    left: 112px;
+    padding: 2px;
+    border: 5px solid $white-color-nav;
+    z-index: 1;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    background-color: $gold-color;
+}
+
+
+#check {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
+
+.circular_square {
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    background-color: $text-color-grey;
+}
+
+.text {
+    padding-top: 120px;
+
+    text-align: center;
+
+    h1 {
+        padding-bottom: 20px;
+        font-family: 'Old Standard TT';
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: -0, 9px;
+    }
+
+
+
+}
+
+#company {
+    font-family: 'Archivo', sans-serif;
+    color: $gold-color;
+}
+
+#text_profile {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+/* Cancellation*/
+.cancellation {
+    margin: 20px;
+    height: 1px;
+
+    h1 {
+        font-family: 'Old Standard TT', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    #eyeliner {
+        height: 2px;
+        background-color: $text-color-grey ;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: $text-color-grey;
+        line-height: 24px;
+    }
+}

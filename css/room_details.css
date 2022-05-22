@@ -91,6 +91,55 @@ nav #search_icon {
   margin-bottom: 2px;
 }
 
+/*Amenities*/
+.amenities {
+  margin: 20px;
+}
+.amenities h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.amenities #eyeliner {
+  height: 2px;
+  background-color: #777777;
+  margin-bottom: 20px;
+}
+
+.item_amenities {
+  margin: 5px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.item_amenities ul {
+  list-style: none;
+}
+.item_amenities li {
+  padding-bottom: 10px;
+}
+.item_amenities span {
+  padding-left: 6px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+#image {
+  height: 214px;
+  margin: 20px;
+  background-color: #EFEFEF;
+}
+
 .type_room_text {
   padding: 20px;
 }
@@ -148,53 +197,95 @@ nav #search_icon {
   color: #777777;
 }
 
-/*Amenities*/
-.amenities {
-  margin: 20px;
+/**/
+.profile_founder {
+  height: 456px;
+  margin-top: 40px;
 }
-.amenities h1 {
+
+.img {
+  position: static;
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.profile {
+  position: relative;
+  left: 112px;
+  padding: 2px;
+  border: 5px solid #FFFFFF;
+  z-index: 1;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  background-color: #BEAD8E;
+}
+
+#check {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+}
+
+.circular_square {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+  background-color: #777777;
+}
+
+.text {
+  padding-top: 120px;
+  text-align: center;
+}
+.text h1 {
+  padding-bottom: 20px;
   font-family: "Old Standard TT";
   font-weight: 400;
   font-size: 30px;
-  line-height: 30px;
-  margin-bottom: 20px;
+  letter-spacing: 0, 9px;
 }
-.amenities #eyeliner {
+
+#company {
+  font-family: "Archivo", sans-serif;
+  color: #BEAD8E;
+}
+
+#text_profile {
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+/* Cancellation*/
+.cancellation {
+  margin: 20px;
+  height: 1px;
+}
+.cancellation h1 {
+  font-family: "Old Standard TT", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+.cancellation #eyeliner {
   height: 2px;
   background-color: #777777;
   margin-bottom: 20px;
 }
-
-.item_amenities {
-  margin: 5px;
-  display: flex;
-  margin-top: 20px;
-  justify-content: space-between;
-}
-.item_amenities ul {
-  list-style: none;
-}
-.item_amenities li {
-  padding-bottom: 10px;
-}
-.item_amenities span {
-  padding-left: 6px;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-body {
-  background-color: #FFFFFF;
-}
-
-#image {
-  height: 214px;
-  margin: 20px;
-  background-color: #EFEFEF;
+.cancellation p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=room_details.css.map */
