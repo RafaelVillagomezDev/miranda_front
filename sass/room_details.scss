@@ -1,7 +1,8 @@
 @use 'components/navbar';
+@use 'components/footer';
 @use 'components/about_card';
 @use 'components/type_room_text';
-
+@use 'components/grid_rooms';
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 //VARIABLES GLOBALES
@@ -177,7 +178,7 @@ body {
 /* Cancellation*/
 .cancellation {
     margin: 20px;
-    height: 1px;
+    height: 197px;
 
     h1 {
         font-family: 'Old Standard TT', sans-serif;
