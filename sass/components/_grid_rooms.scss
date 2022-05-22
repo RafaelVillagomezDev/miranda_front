@@ -46,7 +46,7 @@ body {
     img {
         position: absolute;
         top: 180px;
-        left: 15px;
+        left: 50px;
     }
 
 
@@ -66,11 +66,12 @@ body {
     }
 
     p {
+        padding-top: 10px;
         font-family: 'Old Standard TT';
         padding-left: 10px;
         padding-right: 10px;
         font-weight: 200;
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
         color: $text-color-grey;
         padding-bottom: 12px;
