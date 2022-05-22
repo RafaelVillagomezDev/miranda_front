@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav: #FFFFFF;
+$gold-color: #BEAD8E;
+$black-card: #333333;
+$white-card: #F9F9F9;
+$grey-color-card: #DBDBDB;
+$grey-color-slider: #EDEDED;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+.review_restaurant {
+    margin-top: 51px;
+    height: 714px;
+    padding: 0, 10px;
+    background-color: $white-color-nav;
+    box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
+    margin-bottom: 50px;
+
+    #image {
+        margin: 20px;
+        height: 232px;
+        background-color: $white-color;
+    }
+
+    p {
+        padding-left: 20px;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: $text-color-grey;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    h1 {
+        padding-left: 20px;
+        font-weight: 400;
+        font-family: 'Old Standard TT', sans-serif;
+        line-height: 49.44px;
+        letter-spacing: -1.05px;
+        font-size: 45px;
+        color: $text-color-black;
+    }
+
+
+
+    .text {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+        line-height: 24px;
+        font-family: 'Archivo', sans-serif;
+        font-style: normal;
+    }
+
+    button {
+        margin-left: 20px;
+        width: 216px;
+        height: 60px;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: $text-color-white;
+        font-size: 14px;
+        background-color: $gold-color;
+
+    }
+}

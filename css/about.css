@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+nav {
+  background-color: #FFFFFF;
+  height: 70px;
+}
+nav #btn_menu {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+nav #logo {
+  margin-left: 34px;
+}
+nav #icon_person {
+  position: absolute;
+  right: 0;
+  top: 21px;
+  margin-right: 60px;
+  background-color: white;
+}
+nav #search_icon {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+}
+
+.review_restaurant {
+  margin-top: 51px;
+  height: 714px;
+  padding: 0, 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
+  margin-bottom: 50px;
+}
+.review_restaurant #image {
+  margin: 20px;
+  height: 232px;
+  background-color: #E5E5E5;
+}
+.review_restaurant p {
+  padding-left: 20px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #777777;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.review_restaurant h1 {
+  padding-left: 20px;
+  font-weight: 400;
+  font-family: "Old Standard TT", sans-serif;
+  line-height: 49.44px;
+  letter-spacing: -1.05px;
+  font-size: 45px;
+  color: #222222;
+}
+.review_restaurant .text {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 10px;
+  line-height: 24px;
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+}
+.review_restaurant button {
+  margin-left: 20px;
+  width: 216px;
+  height: 60px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 14px;
+  background-color: #BEAD8E;
+}
+
+.counter {
+  margin: 20px;
+}
+.counter p {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  color: #777777;
+  padding-bottom: 20px;
+}
+.counter h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #222222;
+  font-style: normal;
+}
+
+.counter_list {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 60px;
+}
+
+#text h1 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+.p {
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #777777;
+  font-weight: 400;
+}
+
+#re {
+  font-size: 12px;
+  color: #777777;
+  letter-spacing: 0.2px;
+}
+
+.slider_counter {
+  height: 230.03px;
+  background-color: #DFDFDF;
+  margin-bottom: 60px;
+}
+
+.footer {
+  margin-top: 30px;
+  height: 1050px;
+  padding-left: 20px;
+}
+.footer .description {
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 16px;
+  font-family: "Archivo", serif;
+  padding: 0px 20px;
+}
+.footer .description ul {
+  padding-top: 35px;
+  padding-left: 1px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.footer .description li {
+  text-decoration: none;
+  padding: 6px;
+}
+.footer .description #twitter {
+  background-color: #BEAD8E;
+}
+.footer .description .grey {
+  background-color: #F8F8F8;
+}
+.footer .services {
+  padding-top: 20px;
+}
+.footer .services p {
+  font-family: "Old Standart TT";
+  font-weight: 400;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.services_list {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.services_list ul {
+  list-style: none;
+  width: 158px;
+}
+.services_list a {
+  font-size: 16px;
+  font-family: "Roboto", serif;
+  color: #777777;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.contact_us {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.contact_us #title {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.item_contact {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.item_contact .number {
+  padding-left: 15px;
+}
+
+.badge_footer {
+  background-color: #F8F8F8;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.badge_footer p {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: -0.48px;
+}
+
+#main_about {
+  height: 265px;
+  background-color: #333333;
+  padding-left: 20px;
+  color: #FFFFFF;
+  position: relative;
+  margin-bottom: 60px;
+}
+#main_about p {
+  padding-top: 60px;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 2.8px;
+}
+#main_about h1 {
+  padding-top: 15px;
+  font-family: "Old Standard TT", sans-serif;
+  font-style: normal;
+  font-size: 56px;
+  letter-spacing: -1.2px;
+  font-weight: 400;
+}
+
+#card_about {
+  bottom: 0;
+  right: 17px;
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 40px;
+  width: 120px;
+  display: flex;
+  gap: 12px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 16px;
+}
+#card_about #home {
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.48px;
+  color: #222222;
+  font-weight: 700;
+}
+#card_about #about {
+  padding-left: 8px;
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.48px;
+  color: #BEAD8E;
+  font-weight: 700;
+}
+#card_about #line {
+  width: 2px;
+  background-color: #111111;
+  height: 32px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+/*Video */
+#video {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 186px;
+  background-color: #DADADA;
+  margin-bottom: 30px;
+}
+
+#text_about {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  color: #222222;
+  margin-bottom: 30px;
+}
+#text_about h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39.55px;
+  letter-spacing: -1.16px;
+  text-align: center;
+}
+
+.img_list {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 12px;
+}
+
+.item_img {
+  margin-top: 10px;
+  font-family: "Archivo", sans-serif;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  height: 158px;
+}
+.item_img h1 {
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.item_img_plane {
+  margin-top: 10px;
+  font-family: "Archivo", sans-serif;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #BEAD8E;
+  height: 158px;
+}
+.item_img_plane h1 {
+  color: #FFFFFF;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+/*Core Facilities*/
+.facilities {
+  text-align: center;
+  height: 501px;
+  background-color: #222222;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+.facilities #subtitle {
+  padding-top: 40px;
+  font-family: "Archivo", serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 15.23px;
+  padding-bottom: 18px;
+}
+.facilities h1 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+}
+.facilities .slider_core {
+  margin-top: 22px;
+  height: 370px;
+  background-color: red;
+}
+
+/*# sourceMappingURL=about.css.map */
