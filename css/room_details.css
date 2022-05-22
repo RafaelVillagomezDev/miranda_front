@@ -137,6 +137,50 @@ nav #search_icon {
   height: 380px;
 }
 
+.text_check {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.text_check p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+
+/*Amenities*/
+.amenities {
+  margin: 20px;
+}
+.amenities h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.amenities #eyeliner {
+  height: 2px;
+  background-color: #777777;
+  margin-bottom: 20px;
+}
+
+.item_amenities {
+  margin: 5px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.item_amenities ul {
+  list-style: none;
+}
+.item_amenities li {
+  padding-bottom: 10px;
+}
+.item_amenities span {
+  padding-left: 6px;
+}
+
 * {
   padding: 0;
   margin: 0;

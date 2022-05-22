@@ -55,3 +55,54 @@ $gold-color: #BEAD8E;
 .avalaibility_calendar {
     height: 380px;
 }
+
+.text_check {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: $text-color-grey;
+    }
+}
+
+/*Amenities*/
+
+.amenities {
+    margin: 20px;
+
+    h1 {
+        font-family: 'Old Standard TT';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    #eyeliner {
+        height: 2px;
+        background-color: $text-color-grey ;
+        margin-bottom: 20px;
+    }
+}
+
+.item_amenities {
+    margin: 5px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+
+    span {
+        padding-left: 6px;
+    }
+}
