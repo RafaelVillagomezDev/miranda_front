@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav: #FFFFFF;
+$gold-color: #BEAD8E;
+$black-card: #333333;
+$white-card: #F9F9F9;
+$grey-color-card: #DBDBDB;
+$grey-color-slider: #EDEDED;
+$grey-color-card: #E9E9E9;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: $white-color-nav;
+}
+
+.item {
+    height: 411px;
+    margin: 20px;
+}
+
+.grid_container {
+    display: grid;
+
+
+}
+
+.grid_item {
+    height: 218px;
+    background-color: $grey-color-card;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 180px;
+        left: 15px;
+    }
+
+
+}
+
+.text_room {
+    padding-top: 30px;
+    text-align: center;
+    height: 218px;
+
+    h1 {
+        font-family: 'Old Standard TT', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: -0.72;
+
+    }
+
+    p {
+        font-family: 'Old Standard TT';
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 200;
+        font-size: 14px;
+        font-style: normal;
+        color: $text-color-grey;
+        padding-bottom: 12px;
+    }
+
+    #price_day {
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        color: $gold-color;
+        padding-right: 10px;
+    }
+
+    #booking {
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        color: #BDBDBD;
+    }
+}

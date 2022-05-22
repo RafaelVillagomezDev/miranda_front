@@ -1,3 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+nav {
+  background-color: #FFFFFF;
+  height: 70px;
+}
+nav #btn_menu {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+nav #logo {
+  margin-left: 34px;
+}
+nav #icon_person {
+  position: absolute;
+  right: 0;
+  top: 21px;
+  margin-right: 60px;
+  background-color: white;
+}
+nav #search_icon {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+}
 
+#main_about {
+  height: 265px;
+  background-color: #333333;
+  padding-left: 20px;
+  color: #FFFFFF;
+  position: relative;
+  margin-bottom: 60px;
+}
+#main_about p {
+  padding-top: 60px;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 2.8px;
+}
+#main_about h1 {
+  padding-top: 15px;
+  font-family: "Old Standard TT", sans-serif;
+  font-style: normal;
+  font-size: 56px;
+  letter-spacing: -1.2px;
+  font-weight: 400;
+}
+
+#card_about {
+  bottom: 0;
+  right: 17px;
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 40px;
+  width: 130px;
+  display: flex;
+  gap: 12px;
+  text-align: center;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 16px;
+}
+#card_about #home {
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.48px;
+  color: #222222;
+  font-weight: 700;
+}
+#card_about #about {
+  padding-left: 8px;
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.48px;
+  color: #BEAD8E;
+  font-weight: 700;
+}
+#card_about #line {
+  width: 2px;
+  background-color: #111111;
+  height: 32px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.item {
+  height: 411px;
+  margin: 20px;
+}
+
+.grid_container {
+  display: grid;
+}
+
+.grid_item {
+  height: 218px;
+  background-color: #E9E9E9;
+  position: relative;
+}
+.grid_item img {
+  position: absolute;
+  top: 180px;
+  left: 15px;
+}
+
+.text_room {
+  padding-top: 30px;
+  text-align: center;
+  height: 218px;
+}
+.text_room h1 {
+  font-family: "Old Standard TT", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.72;
+}
+.text_room p {
+  font-family: "Old Standard TT";
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 200;
+  font-size: 14px;
+  font-style: normal;
+  color: #777777;
+  padding-bottom: 12px;
+}
+.text_room #price_day {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #BEAD8E;
+  padding-right: 10px;
+}
+.text_room #booking {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #BDBDBD;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
 
 /*# sourceMappingURL=rooms.css.map */
