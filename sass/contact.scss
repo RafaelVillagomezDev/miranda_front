@@ -1,0 +1,72 @@
+@use 'components/navbar';
+@use 'components/about_card';
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+//VARIABLES GLOBALES
+$black-color: #222222;
+$white-color: #E5E5E5;
+$white-color-nav: #FFFFFF;
+$gold-color: #BEAD8E;
+$black-card: #333333;
+$white-card: #F9F9F9;
+$grey-color-card: #DBDBDB;
+$grey-color-slider: #EDEDED;
+//Colores para textos //
+$text-color-grey: #777777;
+$text-color-black-bold: #111111;
+$text-color-black: #222222;
+$text-color-white: #FFFFFF;
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: $white-color-nav;
+}
+
+.list_card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.item_card {
+    position: relative;
+    display: flex;
+    gap: 22px;
+    height: 236px;
+}
+
+.text_item_card {
+    font-family: 'Old Standard TT';
+    padding-right: 80px;
+
+    h1 {
+        padding-bottom: 12px;
+        font-weight: 400;
+    }
+
+    p {
+
+        color: $text-color-grey;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+.number {
+    position: absolute;
+    z-index: -1;
+    right: 1px;
+    margin-right: 44px;
+}
+
+.mapGoogle {
+    margin: 20px;
+    width: 335px;
+    height: 200px;
+    background-color: #777777;
+}
