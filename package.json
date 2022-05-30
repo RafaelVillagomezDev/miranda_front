@@ -4,8 +4,9 @@
   "description": "Hotel miranda with Sass , html ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "sass":"sass --watch sass:css"
+    "sass": "sass --watch sass:css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,21 +17,18 @@
   "bugs": {
     "url": "https://github.com/RafaelVillagomezDev/miranda_front/issues"
   },
-  "homepage": "https://github.com/RafaelVillagomezDev/miranda_front#readme",
+  "homepage": "/miranda_front",
   "dependencies": {
     "sass": "^1.51.0"
   },
-  "liveSassCompile.settings.formats" : [ 
-    
-    
-    
-    { 
-        "formato" : "expanded" , 
-        "extensionName" : ".min.css" , 
-        "savePath" : "~/../css" 
-    } 
-  
-   
-]
-
+  "liveSassCompile.settings.formats": [
+    {
+      "formato": "expanded",
+      "extensionName": ".min.css",
+      "savePath": "~/../css"
+    }
+  ],
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
