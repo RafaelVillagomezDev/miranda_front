@@ -141,4 +141,13 @@ body {
   background-color: #777777;
 }
 
+.custom-map-control-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 4px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
 /*# sourceMappingURL=contact.css.map */
