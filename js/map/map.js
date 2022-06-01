@@ -71,73 +71,99 @@ function initMap() {
     }
   })
 
-  const geocoder = new google.maps.Geocoder()
-  const service = new google.maps.DistanceMatrixService()
+  //-------------------------------Google matrix Api-------------------------------------------//
 
-  // build request
-  const origin1 = { lat: 55.93, lng: -3.118 }
-  const origin2 = 'Greenwich, England'
-  const destinationA = 'Stockholm, Sweden'
-  const destinationB = { lat: 50.087, lng: 14.421 }
-  const request = {
-    origins: [origin1, origin2],
-    destinations: [destinationA, destinationB],
-    travelMode: google.maps.TravelMode.DRIVING,
-    unitSystem: google.maps.UnitSystem.METRIC,
-    avoidHighways: false,
-    avoidTolls: false,
-  }
+  //Create button to get Response data//
+  const locationNear = document.createElement('button')
 
-  // put request on page
-  document.getElementById('request').innerText = JSON.stringify(
-    request,
-    null,
-    2,
-  )
+  locationNear.textContent = 'Get location'
+  locationNear.classList.add('custom-map-control-button')
+  map.controls[google.maps.ControlPosition.LEFT_CENTER].push(locationNear)
 
-  // get distance matrix response
-  service.getDistanceMatrix(request).then((response) => {
-    // put response
-    console.log(response)
-    document.getElementById('response').innerText = JSON.stringify(
-      response,
-      null,
-      2,
-    )
+  //Call to data
+  locationNear.addEventListener('click', () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const pos = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        }
 
-    // show on map
-    const originList = response.originAddresses
-    const destinationList = response.destinationAddresses
+        infoWindow.setPosition(pos)
 
-    deleteMarkers(markersArray)
+        const geocoder = new google.maps.Geocoder()
+        const service = new google.maps.DistanceMatrixService()
 
-    const showGeocodedAddressOnMap = (asDestination = boolean) => {
-      const handler = ({ results } = google.maps.GeocoderResponse) => {
-        map.fitBounds(bounds.extend(results[0].geometry.location))
-        markersArray.push(
-          new google.maps.Marker({
-            map,
-            position: results[0].geometry.location,
-            label: asDestination ? 'D' : 'O',
-          }),
+        // build request
+        const origin1 = { lat: pos.lat, lng: pos.lng }
+        const destinationA = locations
+        const request = {
+          origins: [origin1],
+          destinations: [destinationA],
+          travelMode: google.maps.TravelMode.DRIVING,
+          unitSystem: google.maps.UnitSystem.METRIC,
+          avoidHighways: false,
+          avoidTolls: false,
+        }
+
+        // put request on page
+        document.getElementById('request').innerText = JSON.stringify(
+          request,
+          null,
+          2,
         )
-      }
 
-      return handler
-    }
+        // put response
+        document.getElementById('response').innerText = JSON.stringify(
+          response,
+          null,
+          2,
+        )
+        // show on map
+        const originList = response.originAddresses
 
-    for (let i = 0; i < originList.length; i++) {
-      const results = response.rows[i].elements
+        const destinationList = response.destinationAddresses
 
-      geocoder
-        .geocode({ address: originList[i] })
-        .then(showGeocodedAddressOnMap(false))
+        deleteMarkers(markersArray)
 
-      for (let j = 0; j < results.length; j++) {
-        geocoder
-          .geocode({ address: destinationList[j] })
-          .then(showGeocodedAddressOnMap(true))
-      }
+        const showGeocodedAddressOnMap = (asDestination = boolean) => {
+          const handler = ({ results } = google.maps.GeocoderResponse) => {
+            map.fitBounds(bounds.extend(results[0].geometry.location))
+            markersArray.push(
+              new google.maps.Marker({
+                map,
+                position: results[0].geometry.location,
+                label: asDestination ? 'D' : 'O',
+              }),
+            )
+          }
+
+          return handler
+        }
+
+        for (let i = 0; i < originList.length; i++) {
+          const results = response.rows[i].elements
+
+          geocoder
+            .geocode({ address: originList[i] })
+            .then(showGeocodedAddressOnMap(false))
+
+          for (let j = 0; j < results.length; j++) {
+            geocoder
+              .geocode({ address: destinationList[j] })
+              .then(showGeocodedAddressOnMap(true))
+          }
+        }
+      })
+
+      // // // put response
+      // document.getElementById('response').innerText = JSON.stringify(
+      //   response,
+      //   null,
+      //   2,
+      // )
+    } else {
+      handleLocationError(false, infoWindow, map.getCenter())
     }
   })
 }
@@ -150,18 +176,6 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
       : "Error: Your browser doesn't support geolocation.",
   )
   infoWindow.open(map)
-}
-// //--------------DISTANCE MATRIX API--------------------------
-
-// // initialize services
-//
-
-function deleteMarkers(markersArray = google.maps.Marker) {
-  for (let i = 0; i < markersArray.length; i++) {
-    markersArray[i].setMap(null)
-  }
-
-  markersArray = []
 }
 
 const locations = [
