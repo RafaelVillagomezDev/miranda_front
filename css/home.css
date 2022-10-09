@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+/*MEDIA QUERIES*/
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 nav {
   background-color: #FFFFFF;
@@ -332,6 +333,29 @@ body {
   height: 531px;
   padding-left: 20px;
 }
+@media (max-width: 900px) {
+  #main_card {
+    height: 600px;
+  }
+}
+@media (max-width: 600px) {
+  #main_card {
+    height: 640px;
+  }
+}
+@media (min-width: 450px) {
+  #main_card {
+    height: 700px;
+  }
+}
+@media (max-width: 1800px) {
+  #main_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
 #main_card p {
   font-size: 15px;
   padding-top: 52px;
@@ -339,6 +363,13 @@ body {
   line-height: 18px;
   letter-spacing: 2.8px;
   font-weight: bold;
+}
+@media (max-width: 1800px) {
+  #main_card p {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    text-align: center;
+  }
 }
 #main_card h1 {
   font-family: "Old Standard TT", serif;
