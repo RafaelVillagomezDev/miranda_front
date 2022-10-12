@@ -40,52 +40,44 @@ body {
     height: 531px;
     padding-left: 20px;
 
-    @include media(tablet-max) {
-        height: 600px;
+    @include media(tablet) {
+        height: 500px;
     }
 
+    @include media(tablet-max) {
+        height: 585px;
+    }
 
     @include media(phone-only) {
-        height: 700px;
-    }
-
-
-    @include media(desktop-max) {
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
-        height: 700px;
+
     }
 
     p {
-        font-size: 15px;
-
+        font-size: 22px;
         padding-top: 52px;
         color: $text-color-white;
-        line-height: 18px;
+        line-height: 2rem;
         letter-spacing: 2.8px;
         font-weight: bold;
 
-        @include media(desktop-max) {
-            font-size: 4rem;
-            line-height: 4.5rem;
+        @include media(phone-only) {
+            font-size: 45px;
             text-align: center;
-        }
-
-        @include media(tablet-max) {
-            font-size: 2rem;
-            line-height: 4.5rem;
-            text-align: center;
+            line-height: 3rem;
         }
 
         @include media(tablet) {
-            font-size: 2rem;
+            font-size: 45px;
+            line-height: 3rem;
+
         }
 
-
-        @include media(phone-only) {
-            font-size: 2rem;
+        @include media(tablet-max) {
+            font-size: 70px;
             line-height: 4.5rem;
             text-align: center;
         }
