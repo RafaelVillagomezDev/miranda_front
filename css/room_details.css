@@ -30,10 +30,16 @@ nav #search_icon {
   background-color: #FFFFFF;
 }
 
+/*MEDIA QUERIES*/
 .footer {
   margin-top: 30px;
   height: 1050px;
   padding-left: 20px;
+}
+@media (min-width: 900px) {
+  .footer {
+    height: 640px;
+  }
 }
 .footer .description {
   font-weight: 400;

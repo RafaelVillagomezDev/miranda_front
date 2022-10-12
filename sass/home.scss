@@ -141,6 +141,13 @@ body {
     background-color: $white-color-nav;
     padding-left: 20px;
 
+    @include media(phone-only) {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
     #discover_subtitle {
         padding-top: 38px;
         color: $text-color-grey;
@@ -363,6 +370,14 @@ body {
     background-color: $grey-color-slider;
 }
 
+.wrap_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #222222;
+}
+
 .card_icons {
     height: 1030px;
     display: flex;
@@ -370,9 +385,22 @@ body {
     align-items: center;
     background-color: #222222;
 
+    @include media(phone-only) {
+        flex-direction: row;
+        align-content: space-between;
+        height: 300px;
+    }
+
     .card_icon {
         padding: 35px 0px;
         height: 186px;
         background-color: #222222;
+    }
+}
+
+.container_services {
+    @include media(phone-only) {
+        display: flex;
+        align-items: baseline;
     }
 }
