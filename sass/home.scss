@@ -404,3 +404,34 @@ body {
         align-items: baseline;
     }
 }
+
+.img_luxe {
+
+    background-image: url('../images/home/home_luxe_3800.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#luxury_img {
+    background-image: url('../images/home/home_luxury.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#duplex_img {
+    background-image: url('../images/home/home_duplex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.slider_core {
+    background-image: url('../images/home/home_core.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

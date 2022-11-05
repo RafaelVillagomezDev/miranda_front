@@ -51,10 +51,9 @@ $text-color-white: #FFFFFF;
 
     }
 
-    #video {
-        margin-top: 35px;
-        background-color: #E6E6E6;
-        height: 270px;
+    video {
+        width: 100%;
+        height: auto;
     }
 
     button {

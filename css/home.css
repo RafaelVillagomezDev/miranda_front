@@ -223,10 +223,9 @@ nav #search_icon {
   color: #c2c2c2;
   line-height: 24px;
 }
-.intro_video #video {
-  margin-top: 35px;
-  background-color: #E6E6E6;
-  height: 270px;
+.intro_video video {
+  width: 100%;
+  height: auto;
 }
 .intro_video button {
   margin-top: 35px;
@@ -673,6 +672,34 @@ body {
     display: flex;
     align-items: baseline;
   }
+}
+
+.img_luxe {
+  background-image: url("../images/home/home_luxe_3800.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#luxury_img {
+  background-image: url("../images/home/home_luxury.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#duplex_img {
+  background-image: url("../images/home/home_duplex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slider_core {
+  background-image: url("../images/home/home_core.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=home.css.map */
