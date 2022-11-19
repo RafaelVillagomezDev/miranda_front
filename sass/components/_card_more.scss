@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 //VARIABLES GLOBALES
+@import 'mixin';
 $black-color: #222222;
 $white-color: #E5E5E5;
 $white-color-nav: #FFFFFF;
@@ -15,7 +16,7 @@ $text-color-grey-card: #C2C2C2;
 
 .card_more {
 
-    height: 600px;
+    height: 560px;
     margin: 0px 52px;
     margin-bottom: 52px;
 
@@ -31,9 +32,13 @@ $text-color-grey-card: #C2C2C2;
 
     #team {
         position: relative;
-        top: 33px;
+        top: 40px;
         left: 40%;
         z-index: 20;
+
+        @include media(phone-only) {
+            top: 80px;
+        }
 
     }
 

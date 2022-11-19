@@ -364,7 +364,8 @@ body {
 
 //Basic Slider
 .basic_slider {
-
+    display: none;
+    ///en un fututo ira un slider/
     margin: 20px;
     height: 335px;
     background-color: $grey-color-slider;
@@ -376,20 +377,28 @@ body {
     align-items: center;
     align-content: center;
     background-color: #222222;
+    height: 300px;
+
+
+    @media(max-width:900px) {
+        height: 1100px;
+    }
 }
 
 .card_icons {
+
     height: 1030px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #222222;
 
-    @include media(phone-only) {
-        flex-direction: row;
+    @include media(tablet-max) {
         align-content: space-between;
         height: 300px;
+        flex-direction: row;
     }
+
 
     .card_icon {
         padding: 35px 0px;
@@ -399,7 +408,7 @@ body {
 }
 
 .container_services {
-    @include media(phone-only) {
+    @include media(tablet) {
         display: flex;
         align-items: baseline;
     }
@@ -431,6 +440,32 @@ body {
 
 .slider_core {
     background-image: url('../images/home/home_core.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section_video {
+    width: 100%;
+    max-width: 80%;
+}
+
+#eggs {
+    background-image: url('../images/icons/icons_menu/egg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tea {
+    background-image: url('../images/icons/icons_menu/te.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#chia {
+    background-image: url('../images/icons/icons_menu/chía.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

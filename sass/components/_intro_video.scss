@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
+@import 'mixin';
 //VARIABLES GLOBALES
 $black-color: #222222;
 $white-color: #E5E5E5;
@@ -13,8 +14,10 @@ $text-color-black: #222222;
 $text-color-white: #FFFFFF;
 
 .intro_video {
+    @include media(desktop-max) {}
+
     background-color: $black-color;
-    height: 856px;
+    max-height: 1200px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 35px;
@@ -48,7 +51,7 @@ $text-color-white: #FFFFFF;
         font-size: 14px;
         color: #c2c2c2;
         line-height: 24px;
-
+        padding-bottom: 12px
     }
 
     video {
@@ -58,6 +61,7 @@ $text-color-white: #FFFFFF;
 
     button {
         margin-top: 35px;
+        margin-bottom: 35px;
         width: 216px;
         height: 60px;
         font-weight: bold;
