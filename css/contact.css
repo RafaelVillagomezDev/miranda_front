@@ -27,6 +27,34 @@ nav #search_icon {
   background-color: #FFFFFF;
 }
 
+.hide {
+  display: none;
+}
+
+.menu_hamburguesa {
+  position: fixed;
+  top: 0;
+  background-color: #333333;
+  height: 1200px;
+  z-index: 80;
+  width: 15%;
+}
+
+.main-container {
+  display: block;
+  min-width: 85%;
+  width: 85%;
+  position: relative;
+  left: 285px;
+}
+
+.btn_close {
+  position: relative;
+  top: 0;
+  right: 0px;
+  background-color: transparent;
+}
+
 #main_about {
   height: 265px;
   background-color: #333333;

@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/home.css" />
-    
+    <link rel="styelesheet" href="./normalize.css"/>
   </head>
   <body>
     <!--NAVBAR-->
     <nav>
       <div>
-        <button type="button" id="btn_menu">
+        <button type="button" id="btn_menu" class="btn_burguer">
           <img src="./images/icons/icon_menu.svg" />
         </button>
         <img id="logo" src="./images/icons/logo_miranda.svg" />
@@ -27,222 +27,232 @@
         </button>
       </div>
     </nav>
-    <!--SECTION INFO-->
-    <section id="main_card">
-      <p>
-        THE ULTIMATE LUXURY
-        <br />
-        EXPERIENCE
-      </p>
-      <h1>
-        The Perfect
-        <br />
-        Base For You
-      </h1>
-      <div id="btn_group">
-        <button id="btn_tour">TAKE A TOUR</button>
-        <button id="btn_more">LEARN MORE</button>
-      </div>
-    </section>
-    <!--FORM ARRIVAL -->
-    <section id="arrival_card">
-        <form id="form_arrival">
-            <div>
-                <label for="arrival">Arrival Date</label><br/>
-                <input type="date" id="arrival" name="arrival_date">
-                <hr class="eyeliner"></hr>
-            </div>
+    <div id="section_burguer">
+        <button type="button" id="btn_close" >
+          <img src="./images/icons/close.svg"  height="30px"/>
+        </button>
+    </div>
+    <div id="section_main">
+       <!--SECTION INFO-->
+        <section id="main_card">
+          <p>
+            THE ULTIMATE LUXURY
+            <br />
+            EXPERIENCE
+          </p>
+          <h1>
+            The Perfect
+            <br />
+            Base For You
+          </h1>
+          <div id="btn_group">
+            <button id="btn_tour">TAKE A TOUR</button>
+            <button id="btn_more">LEARN MORE</button>
+          </div>
+        </section>
+        <!--FORM ARRIVAL -->
+        <section id="arrival_card">
+            <form id="form_arrival">
                 <div>
-                <label for="arrival">LeDeparture Date</label><br/>
-                <input type="date" id="arrival" name="arrival_date">
-                <hr class="eyeliner"></hr>
-            </div>
-            <button>CHECK AVAILABILITY</button>
-        </form>
-    </section>
-    <!--DISCOVER US-->
-    <section id="discover_us">
-        <p id="discover_subtitle">ABOUT US</p>
-        <H1>Discover Our<br>Underground.</H1>
-        <p id="text_discover"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-        <button>BOOK NOW</button>
-
-    </section>
-    <div class="card_more">
-        <div class="team_img img_luxe" >
-        </div>
-        <div class="div_team" >
-                <img id="team" src="./images/icons/group_icon.svg">
-                <img  id="team_shadow" src="./images/icons/team_shadow.svg">
-            <h1>Strong Team</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-        </div>
-    </div>
-
-    <div class="card_more" style="background-color:#222222 ;">
-        <div class="team_img" id="luxury_img">
-        </div >
-            <img id="team" src="./images/icons/calendar.svg"/>
-            <h1 style="color: #FFFFFF;">Luxury Room</h1>
-            <p style="color: #FFFFFF;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-    </div>
-    <p class="subtitles_info">Rooms  </p>
-    <h1 class="title_info">Hand Picked </br>Rooms</h1>
-    <!--SLIDER-->
-     <img id="slider_box" src="./images/icons/slider_box.svg"/>
-     <div class="slider" id="duplex_img">
-        
-     </div>
-     <!--Card info price-->
-     <section class="card_info_price">
-        <h1>Minimal Duplex Room</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        <h1 class="price_card"><a id="dolar">$</a>345<sub>/Night</sub></h1>
-     </section>
-     <section class="intro_video">
-        <p id="subtitle">INTRO VIDEO</p>
-        <h1 >Meet With<br/>Our Luxury<br>Place.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
-        
-        <video autoplay controls>
-          <source src="./images/home/videos/home_video_intro.mp4" type="video/mp4"/>
-          <source src="./images/home/videos/home_video_intro.webm" type="video/webm"/>
-          <p>Su navegador no soporta vídeos HTML5.</p>
-        </video>
-        </div>
-        <button>BOOK NOW</button>
-      </section>
-      <!--Core Features facilities-->
-      <section class="facilities">
-          <p id="subtitle">FACILITIES</p>
-          <h1>Core Features</h1>
-          <div class="slider_core">
-
-          </div>
-      </section>
-      <!-- Menu -->
-      <section class="menu">
-        <img id="roscon" src="./images/icons/roscon.svg">
-        <div class="slider_menu">
-          <div class="menu_div">
-            <p id="subtitle_menu">Menu</p>
-            <h1 id="title_menu">Our Foods Menu</h1>
-            <div class="menu_food">
-              <div class="image_menu" id="eggs">
-              </div>
-                <div class="text_menu">
-                  <h1>Eggs & Bacon</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                    <label for="arrival">Arrival Date</label><br/>
+                    <input type="date" id="arrival" name="arrival_date">
+                    <hr class="eyeliner"></hr>
                 </div>
-            </div>
-            <div class="menu_food" >
-              <div class="image_menu" id="tea">
-              </div>
-                <div class="text_menu" >
-                  <h1>Tea or Coffee</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                    <div>
+                    <label for="arrival">LeDeparture Date</label><br/>
+                    <input type="date" id="arrival" name="arrival_date">
+                    <hr class="eyeliner"></hr>
                 </div>
-            </div>
-            <div class="menu_food">
-            <div class="image_menu" id="chia">
-              </div>
-                <div class="text_menu">
-                  <h1>Chia Oatmeal</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                </div>
-              </div>
-          </div>
-          <button class="arrow_right">
-            <img  src="./images/icons/arrow_right.svg">
-          </button>
-          <button class="arrow_left">
-            <img  src="./images/icons/arrow_left.svg">
-          </button> 
-        </div>
-      </section>
-      <section class="basic_slider">
+                <button>CHECK AVAILABILITY</button>
+            </form>
+        </section>
+        <!--DISCOVER US-->
+        <section id="discover_us">
+            <p id="discover_subtitle">ABOUT US</p>
+            <H1>Discover Our<br>Underground.</H1>
+            <p id="text_discover"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <button>BOOK NOW</button>
 
-      </section>
-     <div class="wrap_icons">
-      <section class="card_icons">
-        <div class="card_icon">
-          <img src="./images/icons/cohete.svg"/>
-        </div>
-        <div class="card_icon">
-          <img src="./images/icons/people.svg"/>
-        </div>
-        <div class="card_icon">
-          <img src="./images/icons/upcoins.svg"/>
-        </div>
-        <div class="card_icon">
-          <img src="./images/icons/book.svg"/>
-        </div>
-      </section>
-
-     </div>
-     
-      <!--Footer-->
-      <section class="footer">
-        <div class="description">
-            <img src="./images/icons/logo_miranda2.svg"/>
-            <p class="description_text">
-              Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
-            </p>
-            <ul>
-              <li class="grey"><a href=""><img src="./images/icons/facebook.svg"/></a></li>
-              <li id="twitter"><a href=""><img src="./images/icons/twitter.svg"/></a></li>
-              <li class="grey"><a href=""><img src="./images/icons/be.svg"/></a></li>
-              <li class="grey"><a href=""><img src="./images/icons/linkedln.svg"/></a></li>
-              <li class="grey"><a href=""><img src="./images/icons/youtube.svg"/></a></li>
-            </ul>
-        </div>
-        <div class="container_services">
-          <div class="services">
-            <p>Services</p>
-            <div class="services_list">
-              <ul>
-                <li><a>+ Restaurent & Bar</a></li>
-                <li><a>+ Swimming Pool</a></li>
-                <li><a>+ Wellness & Spa</a></li>
-                <li><a>+ Restaurent</a></li>
-                <li><a>+ Conference Room</a></li>
-                <li><a>+ Coctail Party House</a></li>
-              </ul>
-              <ul>
-                <li><a>+ Gaming Zone</a></li>
-                <li><a>+ Marrige Party</a></li>
-                <li><a>+ Party Planning</a></li>
-                <li><a>+ Tour Consultancy</a></li>
-              </ul>
+        </section>
+        <div class="card_more">
+            <div class="team_img img_luxe" >
             </div>
+            <div class="div_team" >
+                    <img id="team" src="./images/icons/group_icon.svg">
+                    <img  id="team_shadow" src="./images/icons/team_shadow.svg">
+                <h1>Strong Team</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            </div>
+        </div>
+
+        <div class="card_more" style="background-color:#222222 ;">
+            <div class="team_img" id="luxury_img">
+            </div >
+                <img id="team" src="./images/icons/calendar.svg"/>
+                <h1 style="color: #FFFFFF;">Luxury Room</h1>
+                <p style="color: #FFFFFF;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+        </div>
+        <p class="subtitles_info">Rooms  </p>
+        <h1 class="title_info">Hand Picked </br>Rooms</h1>
+        <!--SLIDER-->
+        <img id="slider_box" src="./images/icons/slider_box.svg"/>
+        <div class="slider" id="duplex_img">
             
         </div>
-        <div class="contact_us">
-           <p id="title">Contact Us.</p>
-           <div class="item_contact">
-              <img src="./images/icons/telefono_icon.svg"/>
-              <img class="number" src="./images/icons/phone_number.svg"/>
-           </div>
-           <div class="item_contact">
-            <img src="./images/icons/message.svg"/>
-            <img class="number" src="./images/icons/phone_number.svg"/>
-           </div>
-           <div class="item_contact">
-            <img src="./images/icons/gps.svg"/>
-            <img class="number" src="./images/icons/phone_number.svg"/>
-           </div>
+        <!--Card info price-->
+        <section class="card_info_price">
+            <h1>Minimal Duplex Room</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <h1 class="price_card"><a id="dolar">$</a>345<sub>/Night</sub></h1>
+        </section>
+        <section class="intro_video">
+            <p id="subtitle">INTRO VIDEO</p>
+            <h1 >Meet With<br/>Our Luxury<br>Place.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
+            
+            <video autoplay controls>
+              <source src="./images/home/videos/home_video_intro.mp4" type="video/mp4"/>
+              <source src="./images/home/videos/home_video_intro.webm" type="video/webm"/>
+              <p>Su navegador no soporta vídeos HTML5.</p>
+            </video>
+            
+            <button>BOOK NOW</button>
+          </section>
+          <!--Core Features facilities-->
+          <section class="facilities">
+              <p id="subtitle">FACILITIES</p>
+              <h1>Core Features</h1>
+              <div class="slider_core">
+
+              </div>
+          </section>
+          <!-- Menu -->
+          <section class="menu">
+            <img id="roscon" src="./images/icons/roscon.svg">
+            <div class="slider_menu">
+              <div class="menu_div">
+                <p id="subtitle_menu">Menu</p>
+                <h1 id="title_menu">Our Foods Menu</h1>
+                <div class="menu_food">
+                  <div class="image_menu" id="eggs">
+                  </div>
+                    <div class="text_menu">
+                      <h1>Eggs & Bacon</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="menu_food" >
+                  <div class="image_menu" id="tea">
+                  </div>
+                    <div class="text_menu" >
+                      <h1>Tea or Coffee</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="menu_food">
+                <div class="image_menu" id="chia">
+                  </div>
+                    <div class="text_menu">
+                      <h1>Chia Oatmeal</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                  </div>
+              </div>
+              <button class="arrow_right">
+                <img  src="./images/icons/arrow_right.svg">
+              </button>
+              <button class="arrow_left">
+                <img  src="./images/icons/arrow_left.svg">
+              </button> 
+            </div>
+          </section>
+          <section class="basic_slider">
+
+          </section>
+        <div class="wrap_icons">
+          <section class="card_icons">
+            <div class="card_icon">
+              <img src="./images/icons/cohete.svg"/>
+            </div>
+            <div class="card_icon">
+              <img src="./images/icons/people.svg"/>
+            </div>
+            <div class="card_icon">
+              <img src="./images/icons/upcoins.svg"/>
+            </div>
+            <div class="card_icon">
+              <img src="./images/icons/book.svg"/>
+            </div>
+          </section>
+
         </div>
+        
+          <!--Footer-->
+          <section class="footer">
+            <div class="description">
+                <img src="./images/icons/logo_miranda2.svg"/>
+                <p class="description_text">
+                  Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
+                </p>
+                <ul>
+                  <li class="grey"><a href=""><img src="./images/icons/facebook.svg"/></a></li>
+                  <li id="twitter"><a href=""><img src="./images/icons/twitter.svg"/></a></li>
+                  <li class="grey"><a href=""><img src="./images/icons/be.svg"/></a></li>
+                  <li class="grey"><a href=""><img src="./images/icons/linkedln.svg"/></a></li>
+                  <li class="grey"><a href=""><img src="./images/icons/youtube.svg"/></a></li>
+                </ul>
+            </div>
+            <div class="container_services">
+              <div class="services">
+                <p>Services</p>
+                <div class="services_list">
+                  <ul>
+                    <li><a>+ Restaurent & Bar</a></li>
+                    <li><a>+ Swimming Pool</a></li>
+                    <li><a>+ Wellness & Spa</a></li>
+                    <li><a>+ Restaurent</a></li>
+                    <li><a>+ Conference Room</a></li>
+                    <li><a>+ Coctail Party House</a></li>
+                  </ul>
+                  <ul>
+                    <li><a>+ Gaming Zone</a></li>
+                    <li><a>+ Marrige Party</a></li>
+                    <li><a>+ Party Planning</a></li>
+                    <li><a>+ Tour Consultancy</a></li>
+                  </ul>
+                </div>
+                
+            </div>
+            <div class="contact_us">
+              <p id="title">Contact Us.</p>
+              <div class="item_contact">
+                  <img src="./images/icons/telefono_icon.svg"/>
+                  <img class="number" src="./images/icons/phone_number.svg"/>
+              </div>
+              <div class="item_contact">
+                <img src="./images/icons/message.svg"/>
+                <img class="number" src="./images/icons/phone_number.svg"/>
+              </div>
+              <div class="item_contact">
+                <img src="./images/icons/gps.svg"/>
+                <img class="number" src="./images/icons/phone_number.svg"/>
+              </div>
+            </div>
+            </div>
+        
+          
+          </section>
+          <div class="badge_footer">
+            <div>
+              <p>Copyright By yandry_villamo - 2022</p>
+            </div>
+            <div>
+              <p>Terms of use    |    Privacy Environmental Policy</p>
+            </div>
         </div>
-    
-      
-      </section>
-      <div class="badge_footer">
-        <div>
-          <p>Copyright By yandry_villamo - 2022</p>
-        </div>
-        <div>
-          <p>Terms of use    |    Privacy Environmental Policy</p>
-        </div>
+        
     </div>
   </body>
+  
+  <script src = "./js/script_images/init.js" type = "application/javascript" ></script>
 </html>
