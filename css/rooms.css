@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap");
+/*MEDIA QUERIES*/
 nav {
   background-color: #FFFFFF;
   height: 70px;
@@ -29,28 +30,31 @@ nav #search_icon {
   background-color: #FFFFFF;
 }
 
-.hide {
-  display: none;
-}
-
 .menu_hamburguesa {
+  display: none;
   position: fixed;
   top: 0;
   background-color: #333333;
   height: 1200px;
   z-index: 80;
-  width: 15%;
+  width: 50%;
+}
+@media (min-width: 900px) {
+  .menu_hamburguesa {
+    width: 20%;
+  }
 }
 
-.main-container {
+.main_container {
   display: block;
-  min-width: 85%;
-  width: 85%;
-  position: relative;
-  left: 285px;
+  width: 80%;
+  padding-left: 20%;
 }
 
-.btn_close {
+#section_burguer {
+  display: none;
+}
+#section_burguer button {
   position: relative;
   top: 0;
   right: 0px;
