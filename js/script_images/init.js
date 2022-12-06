@@ -2,6 +2,11 @@
 
 //Metodo abrir hamburguesa//
 
+let btn = document.getElementById('btn_menu')
+let btn_close = document.querySelector('#section_burguer')
+let hamburguesa = document.querySelector('.menu_hamburguesa')
+let section_main = document.querySelector('#section_main')
+
 const open = () => {
   hamburguesa.setAttribute('style', 'display:block')
   btn_close.setAttribute('style', 'display:block')
@@ -15,10 +20,6 @@ const close = () => {
   }
 }
 
-let btn = document.getElementById('btn_menu')
-let btn_close = document.querySelector('#section_burguer')
-let hamburguesa = document.querySelector('.menu_hamburguesa')
-let section_main = document.querySelector('#section_main')
 if (btn) {
   btn.addEventListener('click', open)
 }

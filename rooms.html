@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/rooms.css" />
+    <link rel="styelesheet" href="./normalize.css" />
   </head>
   <body>
-    <!--Navbar-->
+    <!--NAVBAR-->
     <nav>
       <div>
-        <button type="button" id="btn_menu">
+        <button type="button" id="btn_menu" class="btn_burguer">
           <img src="./images/icons/icon_menu.svg" />
         </button>
         <img id="logo" src="./images/icons/logo_miranda.svg" />
@@ -26,8 +27,21 @@
         </button>
       </div>
     </nav>
+    <div id="section_burguer" class="menu_hamburguesa">
+      <button type="button" id="btn_close">
+        <img src="./images/icons/close.svg" height="30px" />
+      </button>
+
+      <ul id="enlaces_hamburguesa">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./rooms.html">Rooms</a></li>
+        <li><a href="./room_details.html">Room details</a></li>
+        <li><a>About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
     <!--SECTION ABOUT-->
-    <section id="main_about">
+    <section id="section_main" class="main_about">
       <p>The ultimate luxury</p>
       <h1>About Us</h1>
       <div id="card_about">
@@ -39,9 +53,8 @@
     <!--List Rooms-->
     <div class="grid_container">
       <div class="item">
-        <div class="grid_item">
-          <img src="./images/icons/slider_box.svg" />
-        </div>
+        <div class="grid_item" id="habitacion_1"></div>
+        <img class="grid_item_images" src="./images/icons/slider_box.svg" />
         <div class="text_room">
           <h1>Minimal Duplex Room</h1>
           <p>
@@ -53,9 +66,8 @@
         </div>
       </div>
       <div class="item">
-        <div class="grid_item">
-          <img src="./images/icons/slider_box.svg" />
-        </div>
+        <div class="grid_item" id="habitacion_2"></div>
+        <img class="grid_item_images" src="./images/icons/slider_box.svg" />
         <div class="text_room">
           <h1>Minimal Duplex Room</h1>
           <p>
@@ -67,9 +79,8 @@
         </div>
       </div>
       <div class="item">
-        <div class="grid_item">
-          <img src="./images/icons/slider_box.svg" />
-        </div>
+        <div class="grid_item" id="habitacion_3"></div>
+        <img class="grid_item_images" src="./images/icons/slider_box.svg" />
         <div class="text_room">
           <h1>Minimal Duplex Room</h1>
           <p>
@@ -153,4 +164,9 @@
       </div>
     </div>
   </body>
+
+  <script
+    src="./js/script_images/init.js"
+    type="application/javascript"
+  ></script>
 </html>

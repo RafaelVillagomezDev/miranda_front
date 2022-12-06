@@ -70,25 +70,22 @@ nav #search_icon {
 #enlaces_hamburguesa li {
   list-style: none;
   line-height: 40px;
+  list-style-type: none;
+  text-decoration: none;
 }
 #enlaces_hamburguesa li a {
   color: #E5E5E5;
   font-size: 25px;
+  text-decoration: none;
 }
 #enlaces_hamburguesa li a:hover {
-  color: red;
+  color: #BEAD8E;
 }
 
 /*MEDIA QUERIES*/
 .footer {
   margin-top: 30px;
-  height: 1050px;
   padding-left: 20px;
-}
-@media (min-width: 900px) {
-  .footer {
-    height: 640px;
-  }
 }
 .footer .description {
   font-weight: 400;
@@ -179,28 +176,57 @@ nav #search_icon {
   letter-spacing: -0.48px;
 }
 
-#main_about {
+/*MEDIA QUERIES*/
+.main_about {
   height: 265px;
   background-color: #333333;
   padding-left: 20px;
   color: #FFFFFF;
   position: relative;
   margin-bottom: 60px;
+  /*Tablet*/
+  /*DESKTOP*/
 }
-#main_about p {
+.main_about p {
   padding-top: 60px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Old Standard TT", serif;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: 2.8px;
 }
-#main_about h1 {
+.main_about h1 {
   padding-top: 15px;
   font-family: "Old Standard TT", sans-serif;
   font-style: normal;
   font-size: 56px;
   letter-spacing: -1.2px;
   font-weight: 400;
+}
+@media (min-width: 700px) {
+  .main_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main_about p {
+    font-size: 40px;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .main_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main_about p {
+    font-size: 70px;
+    line-height: 4.5rem;
+    text-align: center;
+  }
 }
 
 #card_about {
@@ -275,6 +301,7 @@ nav #search_icon {
   padding-left: 6px;
 }
 
+/*MEDIA QUERIES*/
 * {
   padding: 0;
   margin: 0;
@@ -297,12 +324,14 @@ body {
 .grid_item {
   height: 218px;
   background-color: #E9E9E9;
-  position: relative;
 }
-.grid_item img {
-  position: absolute;
-  top: 180px;
-  left: 50px;
+
+.grid_item_images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 25px;
 }
 
 .text_room {

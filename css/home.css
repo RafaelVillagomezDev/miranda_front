@@ -73,13 +73,16 @@ nav #search_icon {
 #enlaces_hamburguesa li {
   list-style: none;
   line-height: 40px;
+  list-style-type: none;
+  text-decoration: none;
 }
 #enlaces_hamburguesa li a {
   color: #E5E5E5;
   font-size: 25px;
+  text-decoration: none;
 }
 #enlaces_hamburguesa li a:hover {
-  color: red;
+  color: #BEAD8E;
 }
 
 /*MEDIA QUERIES*/
@@ -301,13 +304,7 @@ nav #search_icon {
 /*MEDIA QUERIES*/
 .footer {
   margin-top: 30px;
-  height: 1050px;
   padding-left: 20px;
-}
-@media (min-width: 900px) {
-  .footer {
-    height: 640px;
-  }
 }
 .footer .description {
   font-weight: 400;

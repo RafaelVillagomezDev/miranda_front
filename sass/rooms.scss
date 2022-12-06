@@ -2,8 +2,8 @@
 @use 'components/about_card';
 @use 'components/grid_rooms';
 @use 'components/footer';
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
-//VARIABLES GLOBALES
 $black-color: #222222;
 $white-color: #E5E5E5;
 $white-color-nav: #FFFFFF;
@@ -26,4 +26,30 @@ $text-color-white: #FFFFFF;
 
 body {
     background-color: $white-color-nav;
+}
+
+#habitacion_1 {
+
+    background-image: url("../images/rooms/grid_rooms/habitacion_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#habitacion_2 {
+
+    background-image: url("../images/rooms/grid_rooms/habitacion_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#habitacion_3 {
+
+    background-image: url("../images/rooms/grid_rooms/habitacion_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }

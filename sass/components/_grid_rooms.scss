@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto:wght@700&display=swap');
 //VARIABLES GLOBALES
+@import '../components/mixin';
 $black-color: #222222;
 $white-color: #E5E5E5;
 $white-color-nav: #FFFFFF;
@@ -41,16 +42,18 @@ body {
 .grid_item {
     height: 218px;
     background-color: $grey-color-card;
-    position: relative;
-
-    img {
-        position: absolute;
-        top: 180px;
-        left: 50px;
-    }
-
 
 }
+
+.grid_item_images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 25px;
+}
+
+
 
 .text_room {
     padding-top: 30px;

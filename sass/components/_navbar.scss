@@ -87,13 +87,16 @@ nav {
     li {
         list-style: none;
         line-height: 40px;
+        list-style-type: none;
+        text-decoration: none;
 
         a {
             color: #E5E5E5;
             font-size: 25px;
+            text-decoration: none;
 
             &:hover {
-                color: red;
+                color: $gold-color;
             }
         }
     }
